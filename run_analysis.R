@@ -70,5 +70,5 @@ MeltDataset <- melt(MeanStdDataset, id = c("idSubjects", "lblActivity"))
 
 AverageDataset <- dcast(MeltDataset, idSubjects + lblActivity ~ variable, mean)
 
-write.table(AverageDataset, "AverageDataset.txt" , sep = ";") # Prints the dataset to a file
+write.table(AverageDataset, "AverageDataset.txt" , sep = ";", row.names = FALSE) # Prints the dataset to a file
 
