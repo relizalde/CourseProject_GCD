@@ -9,12 +9,12 @@ The script will verify if the file is already downloaded and unzipped. If not it
 There are several files in the dateset but the following are the ones that the script needs:
 * *'features.txt'*: List of all features.
 * *'activity_labels.txt'*: Links the class labels with their activity name.
-* 'train/X_train.txt': Training set.
-* 'train/y_train.txt': Training labels.
-* 'train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample.
-* 'test/X_test.txt': Test set.
-* 'test/y_test.txt': Test labels.
-* 'test/subject_test.txt': Each row identifies the subject who performed the activity for each window sample.
+* *'train/X_train.txt'*: Training set.
+* *'train/y_train.txt'*: Training labels.
+* *'train/subject_train.txt'*: Each row identifies the subject who performed the activity for each window sample.
+* *'test/X_test.txt'*: Test set.
+* *'test/y_test.txt'*: Test labels.
+* *'test/subject_test.txt'*: Each row identifies the subject who performed the activity for each window sample.
 
 ### VARIABLES
 #### Raw Data
