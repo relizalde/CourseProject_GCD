@@ -1,5 +1,4 @@
-# Course Project 
-### Coursera Data Science Specialization - Getting and Cleaning Data
+# Course Project for Getting and Cleaning Data
 ### DATA
 The script works with the "Human Activity Recognition Using Smartphones" data set available at UCI repository. A full description is available at the site where the data was obtained:
 
@@ -8,8 +7,8 @@ The script works with the "Human Activity Recognition Using Smartphones" data se
 The script will verify if the file is already downloaded and unzipped. If not it will download the file to a temporary file and unzipped in the working directory.
 
 There are several files in the dateset but the following are the ones that the script needs:
-* 'features.txt': List of all features.
-* 'activity_labels.txt': Links the class labels with their activity name.
+* *'features.txt'*: List of all features.
+* *'activity_labels.txt'*: Links the class labels with their activity name.
 * 'train/X_train.txt': Training set.
 * 'train/y_train.txt': Training labels.
 * 'train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample.
